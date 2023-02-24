@@ -1,0 +1,137 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+}
+.container{
+     width: 750px;
+     height: 750px;
+     cursor: pointer;
+     margin: 10px auto;
+}
+.container1 , .container3{
+     width: 100%;
+     height: 40%;
+     display: flex;
+}
+.container2{
+     width: 100%;
+     height: 20%;
+     display: flex;
+}
+.row1-col1 , .row1-col3 ,
+.row3-col1 , .row3-col3{
+     width: 40%;
+     height: 100%;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+.row1-col2 , .row3-col2{
+     width: 20%;
+     height: 100%;
+}
+
+.row2-col1 , .row2-col3{
+     width: 40%;
+     height: 100%;  
+}
+.row2-col2{
+     width: 20%;
+     height: 100%;
+}
+.green{
+     background: green;
+}
+.red{
+     background: red;
+}
+.blue{
+     background: blue;
+}
+.yellow{
+     background: yellow;
+}
+.white{
+     background: white;
+}
+.row1-col1-child , .row1-col3-child ,
+.row3-col1-child , .row3-col3-child{
+     width: 70%;
+     height: 70%;
+     border-radius: 15px;
+}
+.row1-col1-child>div , .row1-col3-child>div ,
+.row3-col1-child>div , .row3-col3-child>div{
+     width: 35%;
+     height: 35%;
+     margin: 7.5%;
+     float: left;
+     border-radius: 15px;
+     box-shadow: 0.5px 8px 15px ;
+}
+.row1-col2>div , .row3-col2>div{
+     width: 33.33%;
+     height: 16.665%;
+     float: left;
+     border: 1px solid black;
+}
+.row2-col1>div , .row2-col3>div{
+     height: 33.33%;
+     width: 16.665%;
+     border: 1px solid black;
+     float: left;
+}
+.triangle{
+     width: 100%;
+     height: 100%;
+     position: relative;
+}
+.triangle-right{
+     width: 0;
+     height: 0;
+     border-top: 70px solid transparent;
+     border-left: 70px solid green;
+     border-bottom: 70px solid transparent;
+     position: absolute;
+     left: 1px;
+     top: 5px;  
+}
+.triangle-up{
+     width: 0;
+     height: 0;
+     border-right: 70px solid transparent;
+     border-left: 70px solid transparent;
+     border-bottom: 70px solid red;
+     position: absolute;
+     left: 5px;
+     bottom: 1px;
+}
+.triangle-left{
+     width: 0;
+     height: 0;
+     border-top: 70px solid transparent;
+     border-right: 70px solid blue;
+     border-bottom: 70px solid transparent;
+     position: absolute;
+     right: 1px;
+     top: 5px;
+}
+.triangle-down{
+     width: 0;
+     height: 0;
+     border-right: 70px solid transparent;
+     border-top: 70px solid yellow;
+     border-left: 70px solid transparent;
+     position: absolute;
+     right: 5px;
+     top: 1px; 
+}
+img{
+     height: 80px;
+     z-index: 1;
+     position: relative;
+     justify-content: center;
+     margin-top: 35px;
+     margin-left: 35px;
+}
